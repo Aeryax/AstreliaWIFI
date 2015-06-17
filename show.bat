@@ -23,9 +23,6 @@ GOTO STEP1-INIT
 
 :STEP1-INIT
 	netsh wlan show hostednetwork
-
-GOTO STEP2-END
-
-:STEP2-END
-	PAUSE
-	EXIT
+	ping localhost -n 5 > nul
+	CLS
+GOTO SETUP
