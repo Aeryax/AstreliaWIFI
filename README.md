@@ -25,4 +25,4 @@ Easy WIFI hotspot on windows 7+
 
 - You can start create.bat again to change hotspot name.
 - You can start show.bat to get informations about the hotspot (uptime, number of clients...). 
-- You can start the hotspot on Windows startup by adding start.bat in the Windows tasks scheduler.
+- You can start the hotspot on Windows startup by adding start.bat in the Windows tasks scheduler ("WIN + R" ->  "Taskschd.msc").
